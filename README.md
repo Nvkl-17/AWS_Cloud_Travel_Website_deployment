@@ -19,7 +19,7 @@ This project demonstrates how to host a static website using Amazon Web Services
 
 # Steps to Deploy 
 
-1. Create an S3 Bucket
+### Create an S3 Bucket
 
 * Go to the "S3 Console" → Create bucket
 * Name the bucket (e.g., `my-bucketId`)
@@ -27,19 +27,19 @@ This project demonstrates how to host a static website using Amazon Web Services
 * Enable Static Website Hosting under the bucket’s "Properties"
 * Note the "endpoint URL"
 
-2. Upload Your Website Files
+### Upload Your Website Files
 
 * Use AWS CLI or Console to upload files
 < index.html , css files , vendor >
 
 
-3. Configure Bucket Policy
+### Configure Bucket Policy
 
 * Allow public read access
 * Host website using "index.html"
 
 
-4. Setup CloudFront
+### Setup CloudFront
 
 * Go to "CloudFront" → Create distribution
 * Set "Origin Domain" to your S3 bucket
@@ -57,3 +57,9 @@ This project demonstrates how to host a static website using Amazon Web Services
 * S3 bucket object - amazonaws.com/index.html
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Deployed Images
+
+<img width="1401" height="260" alt="image" src="https://github.com/user-attachments/assets/12592bbd-7767-4ed1-8fc8-5d2ea367f60c" />
+
+
